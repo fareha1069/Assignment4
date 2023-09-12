@@ -3,7 +3,7 @@
 
   for (i in names) {
     var firstLetter = names[i].charAt(0);
-    firstLetter = firstLetter.toLocaleLowerCase();
+    firstLetter = firstLetter.toLowerCase();
     if (firstLetter == "j") 
       byeSpeaker.speak(names[i]);
     else 
